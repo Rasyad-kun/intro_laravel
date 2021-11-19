@@ -9,24 +9,28 @@ class Inventory
 {
     private static $data_inventory = [
         [
-            "judul"=>"Webcam",
-            "link"=>"post-webcam",
-            "deskripsi"=>"Webcam adalah ...",
+            "judul"     => "Webcam",
+            "link"      => "post-webcam",
+            "deskripsi" => "Webcam adalah ..."
         ],
         [
-            "judul"=>"Printer",
-            "link"=>"post-printer",
-            "deskripsi"=>"Printer adalah ...",
+            "judul"     => "Printer",
+            "link"      => "post-printer",
+            "deskripsi" => "Printer adalah ..."
         ]
-        ];
+    ];
+
     public static function all()
     {
-        return self::$data_inventory;
+        //collect dibutuhkan untuk menggunakan function first / firstWhere
+        return collect(self::$data_inventory);
     }
 
     public static function find($link)
     {
+        //gunakan function firstWhere untuk medapatkan data yang pertama dalam kondisi...
+        //tidak menggunakan function first dikarenakan first selalu mengambil data pertama / index pertama...
         $post = static::all();
-        return $post -> first('link', $link);
+        return $post -> firstWhere('link', $link);
     }
 }

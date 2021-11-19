@@ -1,14 +1,16 @@
 <?php
 
+use app\Models\Inventory;
 use Illuminate\Support\Facades\Route;
-use app\Models\inventory;
-use app\Http\Controllers\InventoryController;
+use App\Http\Controllers\IntroController;
+use App\Http\Controllers\MemberController;
+use App\Http\Controllers\InventoryController;
 
 // use app\Http\Controller\IntroController;
 
+// kegunaan web.php sendiri untuk mengorganisir dan memberikan jalur/ mengalihkan pada website? / atau controller
 
-
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('home', [
         "title" => "Home"
     ]);
@@ -22,7 +24,12 @@ Route::get('/profile', function () {
 
 Route::get('/inventory', [InventoryController::class, 'index']);
 
-Route::get('/inventory/{link}', [InventoryController::class, 'index']);
+Route::get('/inventory/{link}', [InventoryController::class, 'show']);
+
+Route::get('/member', [MemberController::class, 'getAll']);
+
+Route::get('/member/{link}', [MemberController::class, 'show']);
+
 
 // Route::get('/', function () {
 //     return view('welcome');

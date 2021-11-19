@@ -11,8 +11,10 @@
     <title>{{ $title }}</title>
   </head>
   <body>
+      {{-- input navbar --}}
       @include('partial.navbar')
 
+      {{-- input masing masing views --}}
       <div class="container mt-4">
           @yield("container")
       </div>

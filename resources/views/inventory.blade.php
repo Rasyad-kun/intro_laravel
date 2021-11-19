@@ -7,7 +7,7 @@
 
     @foreach ($inventory as $item)
         <h2>
-            <a href="/inventory/{{ $item['link'] }}">
+            <a href="/inventory/{{ $item["link"] }}">
             {{ $item["judul"] }}
             </a>
         </h2>
