@@ -14,7 +14,7 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "19",
             "asal"      => "Kendal",
-            "foto"      => ""
+            "foto"      => "Muhammad Akhtar Rashad Fahmi.jpg"
         ],
         [
             "nama"      => "Sarah Rizqi Firyal",
@@ -22,7 +22,7 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "27",
             "asal"      => "-",
-            "foto"      => ""
+            "foto"      => "Sarah Rizqi Firyal.png"
         ],
         [
             "nama"      => "Steffano Maruli Napitupulu",
@@ -30,7 +30,7 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "29",
             "asal"      => "Jakarta timur",
-            "foto"      => ""
+            "foto"      => "Steffano Maruli Napitupulu.png"
         ],
         [
             "nama"      => "Sultan Rafi Alfarisi",
@@ -38,7 +38,7 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "31",
             "asal"      => "Jakarta timur",
-            "foto"      => ""
+            "foto"      => "Sultan Rafi Al Farisi.jpg"
         ],
     ];
 
