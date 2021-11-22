@@ -14,7 +14,8 @@
                 </h3>
                 <h4 class="mb-5">
                     {{ $member['jurusan'] }},
-                    {{ $member['absensi'] }}
+                    {{ $member['absensi'] }} <br>
+                    {{ $member['deskripsi'] }}
                 </h4>
             @endforeach
     </center>

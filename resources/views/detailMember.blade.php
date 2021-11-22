@@ -6,8 +6,9 @@
     </h1>
     <center>
         <h2 class="mb-5">{{ $post['nama'] }}</h2>
-        <img src="{{ $post['foto'] }}" alt="{{ $post['nama'] }}" class="mb-5">
+        <img src="\img\{{ $post['foto'] }}" alt="{{ $post['nama'] }}" class="mb-5">
         <h4 class="mb-5">
+            Deskripsi : {{ $post['deskripsi'] }} <br>
             Kelas : {{ $post['jurusan'] }}, <br>
             Absensi : {{ $post['absensi'] }}, <br>
             Asal : {{ $post['asal'] }}

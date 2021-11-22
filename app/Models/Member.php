@@ -14,15 +14,16 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "19",
             "asal"      => "Kendal",
-            "foto"      => ""
-        ],
+            "foto"      => "Contoh.jpeg",
+            "deskripsi" => "Nama saya Rasyad, saya manusia!"       ],
         [
             "nama"      => "Sarah Rizqi Firyal",
             "link"      => "member-2",
             "jurusan"   => "11 RPL 2",
             "absensi"   => "27",
             "asal"      => "-",
-            "foto"      => ""
+            "foto"      => "",
+            "deskripsi" => "Nama saya Sarah, salam kenal!"  
         ],
         [
             "nama"      => "Steffano Maruli Napitupulu",
@@ -30,7 +31,8 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "29",
             "asal"      => "Jakarta timur",
-            "foto"      => ""
+            "foto"      => "",
+            "deskripsi" => "Nama saya Steffano, salam kenal!"  
         ],
         [
             "nama"      => "Sultan Rafi Alfarisi",
@@ -38,7 +40,8 @@ class Member
             "jurusan"   => "11 RPL 2",
             "absensi"   => "31",
             "asal"      => "Jakarta timur",
-            "foto"      => ""
+            "foto"      => "",
+            "deskripsi" => "Nama saya Sultan, salam kenal dari Jakarta"  
         ],
     ];
 
